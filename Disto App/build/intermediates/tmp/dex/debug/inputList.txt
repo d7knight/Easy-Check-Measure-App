@@ -1,0 +1,7 @@
+C:\Users\David\GoogleDrive\AndroidStudioProjects\DistoApp\Application\build\intermediates\classes\debug
+C:\Users\David\GoogleDrive\AndroidStudioProjects\DistoApp\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-7d971c6dbc0f2ff960c6e541baf949c8b46b6e17.jar
+C:\Users\David\GoogleDrive\AndroidStudioProjects\DistoApp\Application\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-7d588519cda7cd9b6f9a522cea4c7d7b39d728a5.jar
+C:\Users\David\GoogleDrive\AndroidStudioProjects\DistoApp\Application\build\intermediates\pre-dexed\debug\classes-027db2afd0211da611b2d8682551c1d5247e0aec.jar
+C:\Users\David\GoogleDrive\AndroidStudioProjects\DistoApp\Application\build\intermediates\pre-dexed\debug\classes-f694866854e445f0ae8575d8dc24d0527a395b4b.jar
+C:\Users\David\GoogleDrive\AndroidStudioProjects\DistoApp\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-49fa70d59f021c293a6f5d90c4080c776da6feb7.jar
+C:\Users\David\GoogleDrive\AndroidStudioProjects\DistoApp\Application\build\intermediates\pre-dexed\debug\classes-c30e65fbc87627843f86dc64327c929c3336128e.jar

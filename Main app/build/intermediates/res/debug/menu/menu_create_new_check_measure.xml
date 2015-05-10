@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.david.easycheckmeasureapp.CreateNewCheckMeasureActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/send" android:title="@string/send"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/view" android:title="@string/view"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/disto_settings" android:title="@string/disto_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/trigger_measurement" android:title="@string/trigger_measurement"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/trigger_3measurements" android:title="@string/trigger_three_measurements"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/laser_on" android:title="@string/laser_on"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
+<!-- From: file:/C:/Users/David/SkyDrive/AndroidStudioProjects/EasyCheckMeasureApp/Main%20app/src/main/res/menu/menu_create_new_check_measure.xml -->

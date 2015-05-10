@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Easy Check Measure App</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="disto_settings">Connect to Disto</string>
+    <string name="trigger_measurement">Trigger Disto Measurement</string>
+    <string name="trigger_three_measurements">Trigger Minimum of Three Measurements Mode</string>
+    <string name="laser_on">Turn Disto Laser On</string>
+    <string name="send">Send</string>
+    <string name="view">View old Check Measures</string>
+    <string name="title_activity_create_new_check_measure">Create New Check Measure</string>
+    <string name="title_activity_view_old_check_measures">View Old Check Measures</string>
+    <string name="btn3str">Connect to Disto E7100i</string>
+    <string name="btn1str">View Old Check Measures</string>
+    <string name="btn2str">Create New Check Measure</string>
+    <string name="btn4str">Next Measurement</string>
+    <string name="btn5">Previous Measurement</string>
+    <string name="btn5str">Previous Measurement</string>
+    <string name="tv2">Room</string>
+    <string name="tv3">Width</string>
+    <string name="tv4">Length</string>
+    <string name="tv5">Special Note Below</string>
+    <string name="tv6">Mount</string>
+    <string name="tv7">Control</string>
+    <string name="address_text_view">Address</string>
+    <string name="customer_text_view">Customer</string>
+    <string name="company_text_view">Company</string>
+    <string-array name="control_array">
+        <item>Right</item>
+        <item>Left</item>
+        <item>Motorized</item>
+        <item>N/A</item>
+    </string-array>
+    <string-array name="mount_array">
+        <item>IB </item>
+        <item>OB </item>
+        <item>N/A</item>
+    </string-array>
+    <string name="title_dialog_three_measurement_mode">Min of Three Measurements</string>
+    <string name="first_measurement_text_view">First Measurement</string>
+    <string name="second_measurement_text_view">Second Measurement</string>
+    <string name="third_measurement_text_view">Third Measurement</string>
+    <string name="minimum_measurement_text_view">Minimum</string>
+    <string name="redo_btn">Redo All</string>
+    <string name="finish_btn">Finish</string>
+    <string name="trigger_btn">Trigger Measurement</string>
+    <string name="title_activity_send_check_measure">Send Check Measure</string>
+    <string name="send_html">Send as HTML</string>
+    <string name="send_pdf">Send as PDF</string>
+    <string name="view_pdf">View PDF</string>
+    <string name="print_pdf">Print via GCP</string>
+    <string name="save_to_cloud">Save on Cloud</string>
+    <string name="create_new_cm">Create New Check Measure</string>
+</resources>

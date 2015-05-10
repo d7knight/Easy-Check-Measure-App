@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginBottom="30dp"
+    android:weightSum="1">
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/first_measurement_text_view"
+            android:textSize="14sp"
+           />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/myEditTextHeight"
+            android:layout_weight="1"
+            android:elegantTextHeight="false"
+            android:textSize="@dimen/myTextSize"
+            android:id="@+id/first"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/second_measurement_text_view"
+            android:textSize="14sp"
+           />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/myEditTextHeight"
+            android:layout_weight="1"
+            android:textSize="@dimen/myTextSize"
+            android:id="@+id/second" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/third_measurement_text_view"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/myEditTextHeight"
+            android:layout_weight="1"
+            android:textSize="@dimen/myTextSize"
+            android:id="@+id/third"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/minimum_measurement_text_view"
+            android:textSize="14sp"
+           />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/myEditTextHeight"
+            android:layout_weight="1"
+            android:textSize="@dimen/myTextSize"
+            android:id="@+id/minimum"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/redo_btn"
+            android:id="@+id/redo" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trigger_btn"
+            android:id="@+id/trigger" />
+    </TableRow>
+
+
+
+
+</LinearLayout><!-- From: file:/C:/Users/David/SkyDrive/AndroidStudioProjects/EasyCheckMeasureApp/Main%20app/src/main/res/layout/dialog_three_measurement_mode.xml -->

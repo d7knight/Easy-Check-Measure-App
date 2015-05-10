@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:weightSum="1">
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_horizontal"
+        android:weightSum="4" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/company_text_view"
+            android:textSize="14sp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="@dimen/myEditTextHeight"
+            android:layout_weight="3"
+            android:elegantTextHeight="false"
+            android:textSize="@dimen/myTextSize"
+            android:id="@+id/company"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_horizontal"
+        android:weightSum="4" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/customer_text_view"
+            android:textSize="14sp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="@dimen/myEditTextHeight"
+            android:layout_weight="3"
+            android:textSize="@dimen/myTextSize"
+            android:id="@+id/customer" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_horizontal"
+        android:weightSum="4" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/address_text_view"
+            android:textSize="14sp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="@dimen/myEditTextHeight"
+            android:layout_weight="3"
+            android:textSize="@dimen/myTextSize"
+            android:id="@+id/address"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn5str"
+            android:onClick="prevMeasurement"
+            android:id="@+id/button5" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn4str"
+            android:onClick="nextMeasurement"
+            android:id="@+id/button4" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv2"
+            android:id="@+id/textView2" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/myEditTextHeight"
+            android:layout_weight="1"
+            android:textSize="@dimen/myTextSize"
+            android:id="@+id/room" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv6"
+            android:id="@+id/textView6" />
+
+        <Spinner
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_mount"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv7"
+            android:id="@+id/textView7" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_control"
+            android:layout_weight="1"
+            android:spinnerMode="dropdown" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv3"
+            android:id="@+id/textView3" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/myEditTextHeight"
+            android:layout_weight="1"
+            android:ems="10"
+            android:textSize="@dimen/myTextSize"
+            android:id="@+id/width"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv4"
+            android:id="@+id/textView4" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/myEditTextHeight"
+            android:layout_weight="1"
+            android:textSize="@dimen/myTextSize"
+            android:id="@+id/length"/>
+    </TableRow>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/tv5"
+        android:id="@+id/textView5" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/special_note"
+        android:textSize="@dimen/abc_text_size_small_material" />
+
+</LinearLayout><!-- From: file:/C:/Users/David/SkyDrive/AndroidStudioProjects/EasyCheckMeasureApp/Main%20app/src/main/res/layout/activity_create_new_check_measure.xml -->

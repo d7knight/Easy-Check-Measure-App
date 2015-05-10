@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/David/SkyDrive/AndroidStudioProjects/EasyCheckMeasureApp/Disto%20App/build/intermediates/bundles/debug/res/values-v21/values.xml -->
+    <eat-comment/>
+    <style name="Theme.Base" parent="android:Theme.Material.Light">
+    </style>
+</resources>
