@@ -1,19 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
     android:layout_marginLeft="10dp"
     android:layout_marginRight="10dp"
-    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
     android:weightSum="1">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkmeasure_id_text"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"
+        android:textSize="8sp"
+        android:text="Check measure #0 - ERROR"/>
 
     <TableRow
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="fill_horizontal"
-        android:weightSum="4" >
+        android:weightSum="4">
 
         <TextView
             android:layout_width="0dp"
@@ -23,19 +36,18 @@
             android:textSize="14sp" />
 
         <EditText
+            android:id="@+id/company"
+            android:singleLine="true"
             android:layout_width="0dp"
-            android:layout_height="@dimen/myEditTextHeight"
-            android:layout_weight="3"
-            android:elegantTextHeight="false"
-            android:textSize="@dimen/myTextSize"
-            android:id="@+id/company"/>
+            android:layout_height="@dimen/rowHeight"
+            android:layout_weight="3" />
     </TableRow>
 
     <TableRow
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="fill_horizontal"
-        android:weightSum="4" >
+        android:weightSum="4">
 
         <TextView
             android:layout_width="0dp"
@@ -45,18 +57,19 @@
             android:textSize="14sp" />
 
         <EditText
+            android:singleLine="true"
+            android:id="@+id/customer"
             android:layout_width="0dp"
-            android:layout_height="@dimen/myEditTextHeight"
-            android:layout_weight="3"
-            android:textSize="@dimen/myTextSize"
-            android:id="@+id/customer" />
+            android:layout_height="@dimen/rowHeight"
+            android:layout_weight="3"/>
     </TableRow>
 
     <TableRow
+        android:id="@+id/addr_contr"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="fill_horizontal"
-        android:weightSum="4" >
+        android:weightSum="4">
 
         <TextView
             android:layout_width="0dp"
@@ -66,137 +79,48 @@
             android:textSize="14sp" />
 
         <EditText
+            android:singleLine="true"
+            android:id="@+id/address"
             android:layout_width="0dp"
-            android:layout_height="@dimen/myEditTextHeight"
-            android:layout_weight="3"
-            android:textSize="@dimen/myTextSize"
-            android:id="@+id/address"/>
-    </TableRow>
-
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/btn5str"
-            android:onClick="prevMeasurement"
-            android:id="@+id/button5" />
-
-        <Button
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/btn4str"
-            android:onClick="nextMeasurement"
-            android:id="@+id/button4" />
-    </TableRow>
-
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tv2"
-            android:id="@+id/textView2" />
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/myEditTextHeight"
-            android:layout_weight="1"
-            android:textSize="@dimen/myTextSize"
-            android:id="@+id/room" />
-    </TableRow>
-
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tv6"
-            android:id="@+id/textView6" />
-
-        <Spinner
-            android:layout_width="130dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/spinner_mount"
-            android:spinnerMode="dropdown" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tv7"
-            android:id="@+id/textView7" />
-
-        <Spinner
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/spinner_control"
-            android:layout_weight="1"
-            android:spinnerMode="dropdown" />
-
-    </TableRow>
-
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
-
-    </TableRow>
-
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tv3"
-            android:id="@+id/textView3" />
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/myEditTextHeight"
-            android:layout_weight="1"
-            android:ems="10"
-            android:textSize="@dimen/myTextSize"
-            android:id="@+id/width"/>
-    </TableRow>
-
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tv4"
-            android:id="@+id/textView4" />
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/myEditTextHeight"
-            android:layout_weight="1"
-            android:textSize="@dimen/myTextSize"
-            android:id="@+id/length"/>
+            android:layout_height="@dimen/rowHeight"
+            android:layout_weight="3"/>
     </TableRow>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:text="@string/tv5"
-        android:id="@+id/textView5" />
-
-    <EditText
+        android:id="@+id/measurement_counter"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:inputType="textMultiLine"
-        android:ems="10"
-        android:id="@+id/special_note"
-        android:textSize="@dimen/abc_text_size_small_material" />
+        android:layout_height="wrap_content"
+        android:text="Measurements entered so far:"/>
 
+    <ListView
+        android:id="@+id/measurement_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="sendCheckMeasure"
+            android:text="Send"
+            android:textSize="24sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="addMeasurement"
+            android:text="Add.."
+            android:textSize="24sp" />
+    </LinearLayout>
 </LinearLayout>

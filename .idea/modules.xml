@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Disto App/Disto App.iml" filepath="$PROJECT_DIR$/Disto App/Disto App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Easy-Check-Measure-App.iml" filepath="$PROJECT_DIR$/Easy-Check-Measure-App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Main app/Main App.iml" filepath="$PROJECT_DIR$/Main app/Main App.iml" />
+    </modules>
+  </component>
+</project>

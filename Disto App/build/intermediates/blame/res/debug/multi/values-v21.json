@@ -1,0 +1,54 @@
+[
+    {
+        "outputFile": "C:\\DadWorkspace\\Easy-Check-Measure-App\\Disto App\\build\\intermediates\\res\\merged\\debug\\values-v21\\values-v21.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 3,
+                    "endColumn": 12,
+                    "endOffset": 131
+                },
+                "from": {
+                    "file": "C:\\DadWorkspace\\Easy-Check-Measure-App\\Disto App\\src\\main\\res\\values-v21\\base-template-styles.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 695,
+                        "endLine": 20,
+                        "endColumn": 12,
+                        "endOffset": 772
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\Michael Knight\\Easy-Check-Measure-App\\Disto App\\build\\intermediates\\res\\merged\\debug\\values-v21\\values-v21.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 3,
+                    "endColumn": 12,
+                    "endOffset": 131
+                },
+                "from": {
+                    "file": "C:\\Users\\Michael Knight\\Easy-Check-Measure-App\\Disto App\\src\\main\\res\\values-v21\\base-template-styles.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 695,
+                        "endLine": 20,
+                        "endColumn": 12,
+                        "endOffset": 772
+                    }
+                }
+            }
+        ]
+    }
+]

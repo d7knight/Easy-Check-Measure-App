@@ -29,10 +29,9 @@
 
         <TextView
             android:layout_width="0dp"
-            android:layout_height="@dimen/myEditTextHeight"
+            android:layout_height="@dimen/rowHeight"
             android:layout_weight="1"
             android:elegantTextHeight="false"
-            android:textSize="@dimen/myTextSize"
             android:id="@+id/first"/>
     </TableRow>
 
@@ -56,9 +55,8 @@
 
         <TextView
             android:layout_width="0dp"
-            android:layout_height="@dimen/myEditTextHeight"
+            android:layout_height="@dimen/rowHeight"
             android:layout_weight="1"
-            android:textSize="@dimen/myTextSize"
             android:id="@+id/second" />
     </TableRow>
 
@@ -82,9 +80,8 @@
 
         <TextView
             android:layout_width="0dp"
-            android:layout_height="@dimen/myEditTextHeight"
+            android:layout_height="@dimen/rowHeight"
             android:layout_weight="1"
-            android:textSize="@dimen/myTextSize"
             android:id="@+id/third"/>
     </TableRow>
     <TableRow
@@ -107,9 +104,8 @@
 
         <TextView
             android:layout_width="0dp"
-            android:layout_height="@dimen/myEditTextHeight"
+            android:layout_height="@dimen/rowHeight"
             android:layout_weight="1"
-            android:textSize="@dimen/myTextSize"
             android:id="@+id/minimum"/>
     </TableRow>
     <TableRow

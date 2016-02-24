@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Michael Knight\\Easy-Check-Measure-App\\Disto App\\build\\intermediates\\res\\merged\\release\\menu\\main.xml",
+        "source": "C:\\Users\\Michael Knight\\Easy-Check-Measure-App\\Disto App\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michael Knight\\Easy-Check-Measure-App\\Disto App\\build\\intermediates\\res\\merged\\release\\menu\\gatt_services.xml",
+        "source": "C:\\Users\\Michael Knight\\Easy-Check-Measure-App\\Disto App\\src\\main\\res\\menu\\gatt_services.xml"
+    },
+    {
+        "merged": "C:\\DadWorkspace\\Easy-Check-Measure-App\\Disto App\\build\\intermediates\\res\\merged\\release\\menu\\gatt_services.xml",
+        "source": "C:\\DadWorkspace\\Easy-Check-Measure-App\\Disto App\\src\\main\\res\\menu\\gatt_services.xml"
+    },
+    {
+        "merged": "C:\\DadWorkspace\\Easy-Check-Measure-App\\Disto App\\build\\intermediates\\res\\merged\\release\\menu\\main.xml",
+        "source": "C:\\DadWorkspace\\Easy-Check-Measure-App\\Disto App\\src\\main\\res\\menu\\main.xml"
+    }
+]

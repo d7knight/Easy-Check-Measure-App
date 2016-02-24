@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/rowHeight">
+
+
+        <EditText
+            android:id="@+id/m_diag_room"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:inputType="textAutoComplete"
+            android:singleLine="true"
+            android:hint="Room" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/tv6" />
+
+            <Spinner
+                android:id="@+id/m_diag_mount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/m_diag_width"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/rowHeight"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="Width"
+            android:singleLine="true"
+            android:inputType="number|text" />
+
+        <EditText
+            android:id="@+id/m_diag_length"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/rowHeight"
+            android:layout_weight="2"
+            android:hint="Length"
+            android:singleLine="true"
+            android:inputType="number|text" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/rowHeight"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/tv7" />
+
+            <Spinner
+                android:id="@+id/m_diag_control"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/m_diag_notes"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/rowHeight"
+        android:ems="10"
+        android:hint="Special notes"
+        android:inputType="textMultiLine" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/measurement_dialog_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/measurement_dialog_confirm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="OK" />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/measurement_dialog_delete"
+        android:text="Delete"
+        android:textSize="14sp"/>
+</LinearLayout>
